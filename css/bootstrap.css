@@ -1,0 +1,30 @@
+.card:hover img{
+    scale: 1.1;
+}
+.card{
+    position:relative;
+    overflow: hidden;
+    
+}
+.card img{
+    transition: all .5s ease-in;
+}
+.card .card-btn{
+    position: absolute;
+    width: 100%;
+    bottom: 16vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(25vh);
+    transition: all .5s ease-in;
+}
+.card:hover .card-btn{
+    transform: translateY(0);
+}
+@media only screen and (max-width: 576px) {
+  #img-1 {
+    width: 100px;
+  }
+}
+
