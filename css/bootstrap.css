@@ -22,9 +22,18 @@
 .card:hover .card-btn{
     transform: translateY(0);
 }
-@media only screen and (max-width: 576px) {
-  #img-1 {
-    width: 100px;
+@media only screen and (max-width: 786px) {
+  .image-11 {
+    width: 200px;
+    height: 200px;
   }
+  .new{
+    margin: auto;
+    
+  }
+  .item{
+    overflow: auto;
+  }
+ 
+  
 }
-
