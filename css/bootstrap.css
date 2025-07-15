@@ -35,9 +35,10 @@
     overflow: auto;
   }
   .new2{
-    margin: 0%;
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: auto;
   }
  
   
